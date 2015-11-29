@@ -1,0 +1,5 @@
+H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\bin\Debug\Handwritten-Text-Detection.dll
+H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\bin\Debug\Handwritten-Text-Detection.pdb
+H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\obj\Debug\Handwritten-Text-Detection.csprojResolveAssemblyReference.cache
+H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\obj\Debug\Handwritten-Text-Detection.dll
+H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\obj\Debug\Handwritten-Text-Detection.pdb

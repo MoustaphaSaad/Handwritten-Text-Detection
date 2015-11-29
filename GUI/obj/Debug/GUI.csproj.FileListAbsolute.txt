@@ -1,0 +1,11 @@
+H:\Projects\Handwritten-Text-Detection\GUI\bin\Debug\GUI.exe.config
+H:\Projects\Handwritten-Text-Detection\GUI\bin\Debug\GUI.exe
+H:\Projects\Handwritten-Text-Detection\GUI\bin\Debug\GUI.pdb
+H:\Projects\Handwritten-Text-Detection\GUI\bin\Debug\Handwritten-Text-Detection.dll
+H:\Projects\Handwritten-Text-Detection\GUI\bin\Debug\Handwritten-Text-Detection.pdb
+H:\Projects\Handwritten-Text-Detection\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+H:\Projects\Handwritten-Text-Detection\GUI\obj\Debug\GUI.Form1.resources
+H:\Projects\Handwritten-Text-Detection\GUI\obj\Debug\GUI.Properties.Resources.resources
+H:\Projects\Handwritten-Text-Detection\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+H:\Projects\Handwritten-Text-Detection\GUI\obj\Debug\GUI.exe
+H:\Projects\Handwritten-Text-Detection\GUI\obj\Debug\GUI.pdb
