@@ -5,7 +5,7 @@ using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Handwritten_Text_Detection
+namespace Handwritten_Text_Detection_Library
 {
     public class AutoThreshold : IOperation
     {

@@ -6,8 +6,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
 using System.Drawing.Imaging;
+using MathWorks.MATLAB.NET.Utility;
+using MathWorks.MATLAB.NET.Arrays;
 
-namespace Handwritten_Text_Detection
+namespace Handwritten_Text_Detection_Library
 {
     public struct Pixel
     {
@@ -200,6 +202,40 @@ namespace Handwritten_Text_Detection
                 }
             }
             return res;
+        }
+
+        public MWNumericArray ToMatlabArray()
+        {
+            MWNumericArray result = null;
+            byte[, ,] data = new byte[3, Height, Width];
+            for (int i = 0; i < Height; i++)
+            {
+                for (int j = 0; j < Width; j++)
+                {
+                    Pixel p = GetPixel(j, i);
+                    data[0, i, j] = p.R;
+                    data[1, i, j] = p.G;
+                    data[2, i, j] = p.B;
+                }
+            }
+            result = new MWNumericArray(MWArrayComplexity.Real, MWNumericType.UInt8,3, Height, Width);
+            result = data;
+            return result;
+        }
+
+        public void FromMatlabArray(MWArray data)
+        {
+            var k = data.ToArray();
+            for (int i = 0; i < k.GetLength(0); i++)
+            {
+                for (int j = 0; j < k.GetLength(1); j++)
+                {
+                    object a = k.GetValue(i,j);
+                    byte b = (byte) a;
+                    Pixel p = new Pixel((int)b,(int)b,(int)b,255);
+                    SetPixel(j,i,p);
+                }
+            }
         }
     }
 }

@@ -9,3 +9,4 @@ H:\Projects\Handwritten-Text-Detection\GUI\obj\Debug\GUI.Properties.Resources.re
 H:\Projects\Handwritten-Text-Detection\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
 H:\Projects\Handwritten-Text-Detection\GUI\obj\Debug\GUI.exe
 H:\Projects\Handwritten-Text-Detection\GUI\obj\Debug\GUI.pdb
+H:\Projects\Handwritten-Text-Detection\GUI\bin\Debug\MAsset.dll

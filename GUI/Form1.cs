@@ -7,14 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Handwritten_Text_Detection;
-using Handwritten_Text_Detection.Operations;
+using Handwritten_Text_Detection_Library;
+using Handwritten_Text_Detection_Library.Operations;
 
 namespace GUI
 {
     public partial class Form1 : Form
     {
-        private Handwritten_Text_Detection.Image m_image;
+        private Handwritten_Text_Detection_Library.Image m_image;
 
         public Form1()
         {
@@ -27,7 +27,7 @@ namespace GUI
             DialogResult res = openFileDialog.ShowDialog();
             if (res == DialogResult.OK)
             {
-                m_image = new Handwritten_Text_Detection.Image(openFileDialog.FileName);
+                m_image = new Handwritten_Text_Detection_Library.Image(openFileDialog.FileName);
             }
             pictureBox1.Image = m_image.ExportBitmap();
         }
@@ -37,12 +37,13 @@ namespace GUI
             IOperation operation = new Grayscale();
             m_image = operation.Apply(m_image);
 
+            operation = new IncreaseContrast();
+            m_image = operation.Apply(m_image);
+
             operation = new LocalThreshold(10,10);
             m_image = operation.Apply(m_image);
 
             pictureBox1.Image = m_image.ExportBitmap();
-
-            
         }
     }
 }

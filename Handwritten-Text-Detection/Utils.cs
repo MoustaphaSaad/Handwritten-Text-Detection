@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Handwritten_Text_Detection
+namespace Handwritten_Text_Detection_Library
 {
     class Utils
     {
