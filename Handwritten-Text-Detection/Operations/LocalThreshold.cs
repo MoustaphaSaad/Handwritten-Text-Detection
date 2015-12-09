@@ -98,7 +98,7 @@ namespace Handwritten_Text_Detection_Library.Operations
                 }
             }
 
-            double rT = Utils.NormalRand(75, 25);
+            double rT = Utils.NormalRand(25, 10);
             IOperation operation = new AutoThreshold((int)rT,25);
 
             for (int i = 0; i < slices.GetLength(0); i++)

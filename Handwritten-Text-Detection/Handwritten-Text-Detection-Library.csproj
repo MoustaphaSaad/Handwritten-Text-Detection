@@ -92,6 +92,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Operations\AutoThreshold.cs" />
+    <Compile Include="Operations\ConnectedComponent.cs" />
     <Compile Include="Operations\Grayscale.cs" />
     <Compile Include="Image.cs" />
     <Compile Include="IOperation.cs" />

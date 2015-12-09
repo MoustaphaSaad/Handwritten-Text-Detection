@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration build-checksum="2640701046" file="H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\Operations\MAsset.prj" location="H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\Operations" name="MAsset" preferred-package-location="H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\Operations\MAsset\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.library" target-name="Library Compiler">
+  <configuration build-checksum="1465334078" file="H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\Operations\MAsset.prj" location="H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\Operations" name="MAsset" preferred-package-location="H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\Operations\MAsset\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.library" target-name="Library Compiler">
     <param.appname>MAsset</param.appname>
     <param.icon />
     <param.icons />
@@ -49,7 +49,7 @@
     <param.net.tsa.assembly />
     <param.net.tsa.interface />
     <param.net.tsa.namespace />
-    <param.net.tsa.superclass>MatlabAsset</param.net.tsa.superclass>
+    <param.net.tsa.superclass>MAsset</param.net.tsa.superclass>
     <param.net.tsa.metadata />
     <param.net.tsa.metadata.assembly>C:\Users\Hesham\Documents\MATLAB</param.net.tsa.metadata.assembly>
     <param.net.saved.interface />
@@ -101,11 +101,13 @@
       <param.net.saved.interface />
     </unset>
     <fileset.exports>
+      <file>${PROJECT_ROOT}\ConnectedComponent.m</file>
       <file>${PROJECT_ROOT}\IncreaseContrast.m</file>
     </fileset.exports>
     <fileset.classes>
       <entity.package name="">
-        <entity.class name="MatlabAsset">
+        <entity.class name="MAsset">
+          <file>${PROJECT_ROOT}\ConnectedComponent.m</file>
           <file>${PROJECT_ROOT}\IncreaseContrast.m</file>
         </entity.class>
       </entity.package>

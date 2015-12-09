@@ -7,15 +7,16 @@ using MAsset;
 using MathWorks.MATLAB.NET.Utility;
 using MathWorks.MATLAB.NET.Arrays;
 
+
 namespace Handwritten_Text_Detection_Library.Operations
 {
     public class IncreaseContrast: IOperation
     {
-        private MatlabAsset m_assets;
+        private MAsset.MAsset m_assets;
 
         public IncreaseContrast()
         {
-            m_assets = new MatlabAsset();
+            m_assets = new MAsset.MAsset();
         }
 
         public Image Apply(Image img)

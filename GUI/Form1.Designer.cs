@@ -31,9 +31,10 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.operationsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.segmentTextToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.connectedComponentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -60,9 +61,25 @@
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
             this.openToolStripMenuItem.Text = "Open";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
+            // 
+            // operationsToolStripMenuItem
+            // 
+            this.operationsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.segmentTextToolStripMenuItem,
+            this.connectedComponentToolStripMenuItem});
+            this.operationsToolStripMenuItem.Name = "operationsToolStripMenuItem";
+            this.operationsToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
+            this.operationsToolStripMenuItem.Text = "Operations";
+            // 
+            // segmentTextToolStripMenuItem
+            // 
+            this.segmentTextToolStripMenuItem.Name = "segmentTextToolStripMenuItem";
+            this.segmentTextToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.segmentTextToolStripMenuItem.Text = "Segment Text";
+            this.segmentTextToolStripMenuItem.Click += new System.EventHandler(this.segmentTextToolStripMenuItem_Click);
             // 
             // pictureBox1
             // 
@@ -74,20 +91,12 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // operationsToolStripMenuItem
+            // connectedComponentToolStripMenuItem
             // 
-            this.operationsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.segmentTextToolStripMenuItem});
-            this.operationsToolStripMenuItem.Name = "operationsToolStripMenuItem";
-            this.operationsToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
-            this.operationsToolStripMenuItem.Text = "Operations";
-            // 
-            // segmentTextToolStripMenuItem
-            // 
-            this.segmentTextToolStripMenuItem.Name = "segmentTextToolStripMenuItem";
-            this.segmentTextToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.segmentTextToolStripMenuItem.Text = "Segment Text";
-            this.segmentTextToolStripMenuItem.Click += new System.EventHandler(this.segmentTextToolStripMenuItem_Click);
+            this.connectedComponentToolStripMenuItem.Name = "connectedComponentToolStripMenuItem";
+            this.connectedComponentToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.connectedComponentToolStripMenuItem.Text = "ConnectedComponent";
+            this.connectedComponentToolStripMenuItem.Click += new System.EventHandler(this.connectedComponentToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -115,6 +124,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ToolStripMenuItem operationsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem segmentTextToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem connectedComponentToolStripMenuItem;
     }
 }
 

@@ -223,6 +223,23 @@ namespace Handwritten_Text_Detection_Library
             return result;
         }
 
+        public MWArray ToSingleMatlabArray()
+        {
+            MWNumericArray result = null;
+            byte[,] data = new byte[Height, Width];
+            for (int i = 0; i < Height; i++)
+            {
+                for (int j = 0; j < Width; j++)
+                {
+                    Pixel p = GetPixel(j, i);
+                    data[i, j] = p.R;
+                }
+            }
+            result = new MWNumericArray(MWArrayComplexity.Real, MWNumericType.UInt8, Height, Width);
+            result = data;
+            return result;
+        }
+
         public void FromMatlabArray(MWArray data)
         {
             var k = data.ToArray();

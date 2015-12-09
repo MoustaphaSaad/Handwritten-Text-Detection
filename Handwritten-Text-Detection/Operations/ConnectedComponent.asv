@@ -1,0 +1,11 @@
+function[output] = ConnectedComponent(img)
+    rimg = img;
+    CC = bwconncomp(rimg);
+    CCC = regionprops(CC,'centroid');
+    CCCC = regionprops(CC, 'Area');
+    output = zeros(CC.NumObjects, 3);
+    
+    for i = 1:CC.NumObjects
+        output(i)(1)= CCC(i).Centroid(1 CCCC(i).Area
+    end
+end

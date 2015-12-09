@@ -1,0 +1,51 @@
+mcc -W 'dotnet:MAsset,MAsset,0.0,private' -T link:lib -d H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\Operations\MAsset\for_testing -v 'class{MAsset:H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\Operations\ConnectedComponent.m,H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\Operations\IncreaseContrast.m}' 
+Compiler version: 6.1 (R2015b)
+
+Dependency analysis by REQUIREMENTS.
+
+[Warning: Adding path
+"H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\Operations"
+to Compiler path instance.] 
+[] 
+[Warning: Adding path
+"H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\Operations"
+to Compiler path instance.] 
+[] 
+[Warning: Duplicate directory name:
+H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\Operations] 
+[] 
+Parsing file "H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\Operations\ConnectedComponent.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\Operations\IncreaseContrast.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 21 temporary MEX authorization files.
+Removing: 'C:\Users\Hesham\AppData\Local\Temp\mathworks_tmp_02ea41388_11940.auth'.
+Removing: 'C:\Users\Hesham\AppData\Local\Temp\mathworks_tmp_02ea430297_11940.auth'.
+Removing: 'C:\Users\Hesham\AppData\Local\Temp\mathworks_tmp_02ea427523_11940.auth'.
+Removing: 'C:\Users\Hesham\AppData\Local\Temp\mathworks_tmp_02ea44327_11940.auth'.
+Removing: 'C:\Users\Hesham\AppData\Local\Temp\mathworks_tmp_02ea415366_11940.auth'.
+Removing: 'C:\Users\Hesham\AppData\Local\Temp\mathworks_tmp_02ea411000_11940.auth'.
+Removing: 'C:\Users\Hesham\AppData\Local\Temp\mathworks_tmp_02ea41699_11940.auth'.
+Removing: 'C:\Users\Hesham\AppData\Local\Temp\mathworks_tmp_02ea419918_11940.auth'.
+Removing: 'C:\Users\Hesham\AppData\Local\Temp\mathworks_tmp_02ea411960_11940.auth'.
+Removing: 'C:\Users\Hesham\AppData\Local\Temp\mathworks_tmp_02ea423017_11940.auth'.
+Removing: 'C:\Users\Hesham\AppData\Local\Temp\mathworks_tmp_02ea423287_11940.auth'.
+Removing: 'C:\Users\Hesham\AppData\Local\Temp\mathworks_tmp_02ea419105_11940.auth'.
+Removing: 'C:\Users\Hesham\AppData\Local\Temp\mathworks_tmp_02ea429465_11940.auth'.
+Removing: 'C:\Users\Hesham\AppData\Local\Temp\mathworks_tmp_02ea425469_11940.auth'.
+Removing: 'C:\Users\Hesham\AppData\Local\Temp\mathworks_tmp_02ea49306_11940.auth'.
+Removing: 'C:\Users\Hesham\AppData\Local\Temp\mathworks_tmp_02ea432088_11940.auth'.
+Removing: 'C:\Users\Hesham\AppData\Local\Temp\mathworks_tmp_02ea427278_11940.auth'.
+Removing: 'C:\Users\Hesham\AppData\Local\Temp\mathworks_tmp_02ea46545_11940.auth'.
+Removing: 'C:\Users\Hesham\AppData\Local\Temp\mathworks_tmp_02ea419207_11940.auth'.
+Removing: 'C:\Users\Hesham\AppData\Local\Temp\mathworks_tmp_02ea421466_11940.auth'.
+Removing: 'C:\Users\Hesham\AppData\Local\Temp\mathworks_tmp_02ea46067_11940.auth'.
+Generating file "H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\Operations\MAsset\for_testing\MAssetNative.cs".
+Generating file "H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\Operations\MAsset\for_testing\MAsset.cs".
+Generating file "H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\Operations\MAsset\for_testing\readme.txt".
+Executing command: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /nologo /optimize /doc:"H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\Operations\MAsset\for_testing\MAsset.xml" /t:library /r:"C:\Program Files\MATLAB\R2015b\toolbox\dotnetbuilder\bin\win64\v2.0\MWArray.dll" /resource:"H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\Operations\MAsset\for_testing\MAsset.ctf" /out:"H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\Operations\MAsset\for_testing\MAsset.dll" "H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\Operations\MAsset\for_testing\MAsset.cs"Executing command: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /nologo /optimize /doc:"H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\Operations\MAsset\for_testing\MAssetNative.xml" /t:library /r:"C:\Program Files\MATLAB\R2015b\toolbox\dotnetbuilder\bin\win64\v2.0\MWArray.dll" /resource:"H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\Operations\MAsset\for_testing\MAsset.ctf" /out:"H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\Operations\MAsset\for_testing\MAssetNative.dll" "H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\Operations\MAsset\for_testing\MAssetNative.cs"
+Packaging...
+Creating the bundle...
+Web based installer created at H:\Projects\Handwritten-Text-Detection\Handwritten-Text-Detection\Operations\MAsset\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
+Elapsed packaging time was: 46 seconds.

@@ -1,6 +1,0 @@
-function[result] = IncreaseContrast(img)
-    imgMax = max(img(:))/255.0;
-    imgMin = min(img(:))/255.0;
-    result = imadjust(rgb2gray(img),[0.3 0.75],[]);
-    imshow(result);
-end
